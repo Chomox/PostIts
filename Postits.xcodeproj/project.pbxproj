@@ -99,10 +99,10 @@
 		8697422726585BEC00CFF4EA /* Postits */ = {
 			isa = PBXGroup;
 			children = (
-				8697425B26585BF800CFF4EA /* ViewController */,
-				8697425C26585C2900CFF4EA /* Resource */,
 				8697422826585BEC00CFF4EA /* AppDelegate.swift */,
 				8697422A26585BEC00CFF4EA /* SceneDelegate.swift */,
+				8697425C26585C2900CFF4EA /* Resource */,
+				8697425B26585BF800CFF4EA /* ViewController */,
 			);
 			path = Postits;
 			sourceTree = "<group>";
