@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860C3EB42666832000EAAF51 /* PostitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860C3EB32666832000EAAF51 /* PostitsView.swift */; };
+		860C3EB92666833400EAAF51 /* PostitsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860C3EB82666833400EAAF51 /* PostitsView.xib */; };
 		8697422926585BEC00CFF4EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697422826585BEC00CFF4EA /* AppDelegate.swift */; };
 		8697422B26585BEC00CFF4EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697422A26585BEC00CFF4EA /* SceneDelegate.swift */; };
 		8697422D26585BEC00CFF4EA /* PostitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697422C26585BEC00CFF4EA /* PostitsViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		860C3EB32666832000EAAF51 /* PostitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostitsView.swift; sourceTree = "<group>"; };
+		860C3EB82666833400EAAF51 /* PostitsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostitsView.xib; sourceTree = "<group>"; };
 		8697422526585BEC00CFF4EA /* Postits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8697422826585BEC00CFF4EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8697422A26585BEC00CFF4EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		860C3EB12666826300EAAF51 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8697422826585BEC00CFF4EA /* AppDelegate.swift */,
+				8697422A26585BEC00CFF4EA /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		860C3EB2266682A200EAAF51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				860C3EB32666832000EAAF51 /* PostitsView.swift */,
+				860C3EB82666833400EAAF51 /* PostitsView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8697421C26585BEC00CFF4EA = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +121,10 @@
 		8697422726585BEC00CFF4EA /* Postits */ = {
 			isa = PBXGroup;
 			children = (
-				8697422826585BEC00CFF4EA /* AppDelegate.swift */,
-				8697422A26585BEC00CFF4EA /* SceneDelegate.swift */,
-				8697425C26585C2900CFF4EA /* Resource */,
+				860C3EB12666826300EAAF51 /* App */,
 				8697425B26585BF800CFF4EA /* Controller */,
+				8697425C26585C2900CFF4EA /* Resource */,
+				860C3EB2266682A200EAAF51 /* View */,
 			);
 			path = Postits;
 			sourceTree = "<group>";
@@ -248,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8697423526585BEC00CFF4EA /* LaunchScreen.storyboard in Resources */,
+				860C3EB92666833400EAAF51 /* PostitsView.xib in Resources */,
 				8697423226585BEC00CFF4EA /* Assets.xcassets in Resources */,
 				8697423026585BEC00CFF4EA /* Main.storyboard in Resources */,
 			);
@@ -275,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8697422D26585BEC00CFF4EA /* PostitsViewController.swift in Sources */,
+				860C3EB42666832000EAAF51 /* PostitsView.swift in Sources */,
 				8697422926585BEC00CFF4EA /* AppDelegate.swift in Sources */,
 				8697422B26585BEC00CFF4EA /* SceneDelegate.swift in Sources */,
 			);
