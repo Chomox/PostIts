@@ -32,7 +32,15 @@ extension PostitsViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: PostitsView.self), for: indexPath)
+        cell.layer.cornerRadius = 10
+        cell.backgroundColor = .red
+        cell.layer.masksToBounds = true
         return cell
     }
 }
 
+extension PostitsViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: view.frame.width - 30, height: 200)
+    }
+}

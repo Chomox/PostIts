@@ -23,6 +23,5 @@ final class PostitsView: UICollectionViewCell
             view.frame = self.bounds
             self.addSubview(view)
         }
-        self.layer.cornerRadius = 10
     }
 }
