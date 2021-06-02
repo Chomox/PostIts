@@ -49,7 +49,9 @@
                             <constraint firstItem="7V8-EF-c2O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xLf-oF-VI9"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Postits" largeTitleDisplayMode="always" id="ivB-eb-Fcu"/>
+                    <navigationItem key="navigationItem" title="Postits" largeTitleDisplayMode="always" id="ivB-eb-Fcu">
+                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="9SY-Bi-EE9"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="gOq-oW-INL" id="vAv-GO-9IC"/>
                     </connections>
@@ -78,6 +80,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
