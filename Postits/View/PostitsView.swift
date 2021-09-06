@@ -10,6 +10,7 @@ import UIKit
 final class PostitsView: UICollectionViewCell
 {
 
+    @IBOutlet weak var label: UILabel!
     override init(frame: CGRect) {
         super.init(frame: frame)
     }

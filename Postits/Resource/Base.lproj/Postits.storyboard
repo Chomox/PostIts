@@ -50,10 +50,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Postits" largeTitleDisplayMode="always" id="ivB-eb-Fcu">
-                        <barButtonItem key="leftBarButtonItem" image="pencil" catalog="system" id="Koc-U3-tCS"/>
+                        <barButtonItem key="leftBarButtonItem" image="pencil" catalog="system" id="Koc-U3-tCS">
+                            <connections>
+                                <segue destination="yrK-Ps-V0F" kind="show" id="9cb-h2-wZg"/>
+                            </connections>
+                        </barButtonItem>
                         <rightBarButtonItems>
                             <barButtonItem image="plus" catalog="system" id="9SY-Bi-EE9"/>
-                            <barButtonItem image="gearshape" catalog="system" id="w4x-vc-qDq"/>
+                            <barButtonItem title="Item" id="w4x-vc-qDq">
+                                <connections>
+                                    <segue destination="AdB-jb-vDX" kind="show" id="Ppa-KH-Mi9"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
@@ -63,6 +71,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1026" y="134"/>
+        </scene>
+        <!--Memo-->
+        <scene sceneID="3F1-Ak-2Xo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Memo" id="yrK-Ps-V0F" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ueQ-aP-qyd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OJc-jH-EGb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1820" y="116"/>
+        </scene>
+        <!--Setting-->
+        <scene sceneID="zhO-ho-I9Y">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Setting" id="AdB-jb-vDX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="URA-uz-T2y"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Txw-aS-8Xq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1819" y="150"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pBb-4P-hl6">
@@ -84,7 +112,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
