@@ -11,6 +11,8 @@
 		860C3EB92666833400EAAF51 /* PostitsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860C3EB82666833400EAAF51 /* PostitsView.xib */; };
 		86651D3C26E675CE0060057F /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86651D3B26E675CE0060057F /* MemoViewController.swift */; };
 		86651D4126E676D70060057F /* Memo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86651D4026E676D70060057F /* Memo.storyboard */; };
+		86651D4626E679B80060057F /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86651D4526E679B80060057F /* Setting.storyboard */; };
+		86651D9026E689340060057F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86651D8F26E689340060057F /* SettingViewController.swift */; };
 		86836FA42667DAEF00EFFF69 /* Postit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86836FA32667DAEF00EFFF69 /* Postit.swift */; };
 		8697422926585BEC00CFF4EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697422826585BEC00CFF4EA /* AppDelegate.swift */; };
 		8697422B26585BEC00CFF4EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697422A26585BEC00CFF4EA /* SceneDelegate.swift */; };
@@ -44,6 +46,8 @@
 		860C3EB82666833400EAAF51 /* PostitsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostitsView.xib; sourceTree = "<group>"; };
 		86651D3B26E675CE0060057F /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 		86651D4026E676D70060057F /* Memo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Memo.storyboard; sourceTree = "<group>"; };
+		86651D4526E679B80060057F /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		86651D8F26E689340060057F /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		86836FA32667DAEF00EFFF69 /* Postit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postit.swift; sourceTree = "<group>"; };
 		8697422526585BEC00CFF4EA /* Postits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8697422826585BEC00CFF4EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 			children = (
 				8697422C26585BEC00CFF4EA /* PostitsViewController.swift */,
 				86651D3B26E675CE0060057F /* MemoViewController.swift */,
+				86651D8F26E689340060057F /* SettingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 				8697423326585BEC00CFF4EA /* LaunchScreen.storyboard */,
 				8697422E26585BEC00CFF4EA /* Postits.storyboard */,
 				86651D4026E676D70060057F /* Memo.storyboard */,
+				86651D4526E679B80060057F /* Setting.storyboard */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 				8697423226585BEC00CFF4EA /* Assets.xcassets in Resources */,
 				86651D4126E676D70060057F /* Memo.storyboard in Resources */,
 				8697423026585BEC00CFF4EA /* Postits.storyboard in Resources */,
+				86651D4626E679B80060057F /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +327,7 @@
 				86651D3C26E675CE0060057F /* MemoViewController.swift in Sources */,
 				860C3EB42666832000EAAF51 /* PostitsView.swift in Sources */,
 				8697422926585BEC00CFF4EA /* AppDelegate.swift in Sources */,
+				86651D9026E689340060057F /* SettingViewController.swift in Sources */,
 				8697422B26585BEC00CFF4EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
