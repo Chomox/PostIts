@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		860C3EB42666832000EAAF51 /* PostitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860C3EB32666832000EAAF51 /* PostitsView.swift */; };
 		860C3EB92666833400EAAF51 /* PostitsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860C3EB82666833400EAAF51 /* PostitsView.xib */; };
-		86836FA42667DAEF00EFFF69 /* Postits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86836FA32667DAEF00EFFF69 /* Postits.swift */; };
 		86651D3C26E675CE0060057F /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86651D3B26E675CE0060057F /* MemoViewController.swift */; };
 		86651D4126E676D70060057F /* Memo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86651D4026E676D70060057F /* Memo.storyboard */; };
+		86836FA42667DAEF00EFFF69 /* Postit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86836FA32667DAEF00EFFF69 /* Postit.swift */; };
 		8697422926585BEC00CFF4EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697422826585BEC00CFF4EA /* AppDelegate.swift */; };
 		8697422B26585BEC00CFF4EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697422A26585BEC00CFF4EA /* SceneDelegate.swift */; };
 		8697422D26585BEC00CFF4EA /* PostitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697422C26585BEC00CFF4EA /* PostitsViewController.swift */; };
@@ -42,9 +42,9 @@
 /* Begin PBXFileReference section */
 		860C3EB32666832000EAAF51 /* PostitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostitsView.swift; sourceTree = "<group>"; };
 		860C3EB82666833400EAAF51 /* PostitsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostitsView.xib; sourceTree = "<group>"; };
-		86836FA32667DAEF00EFFF69 /* Postits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postits.swift; sourceTree = "<group>"; };
 		86651D3B26E675CE0060057F /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 		86651D4026E676D70060057F /* Memo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Memo.storyboard; sourceTree = "<group>"; };
+		86836FA32667DAEF00EFFF69 /* Postit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postit.swift; sourceTree = "<group>"; };
 		8697422526585BEC00CFF4EA /* Postits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8697422826585BEC00CFF4EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8697422A26585BEC00CFF4EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		86836FA22667DAAC00EFFF69 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				86836FA32667DAEF00EFFF69 /* Postits.swift */,
+				86836FA32667DAEF00EFFF69 /* Postit.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8697422D26585BEC00CFF4EA /* PostitsViewController.swift in Sources */,
-				86836FA42667DAEF00EFFF69 /* Postits.swift in Sources */,
+				86836FA42667DAEF00EFFF69 /* Postit.swift in Sources */,
 				86651D3C26E675CE0060057F /* MemoViewController.swift in Sources */,
 				860C3EB42666832000EAAF51 /* PostitsView.swift in Sources */,
 				8697422926585BEC00CFF4EA /* AppDelegate.swift in Sources */,
