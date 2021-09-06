@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NVK-0B-SY8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NVK-0B-SY8">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -50,7 +50,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Postits" largeTitleDisplayMode="always" id="ivB-eb-Fcu">
-                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="9SY-Bi-EE9"/>
+                        <barButtonItem key="leftBarButtonItem" image="pencil" catalog="system" id="Koc-U3-tCS"/>
+                        <rightBarButtonItems>
+                            <barButtonItem image="plus" catalog="system" id="9SY-Bi-EE9"/>
+                            <barButtonItem image="gearshape" catalog="system" id="w4x-vc-qDq"/>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="gOq-oW-INL" id="vAv-GO-9IC"/>
@@ -58,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1050.7246376811595" y="133.92857142857142"/>
+            <point key="canvasLocation" x="1026" y="134"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pBb-4P-hl6">
@@ -80,6 +84,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

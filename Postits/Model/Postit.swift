@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct Postits {
+class Postit {
     
     var color: UIColor!
     var lastEditDate: Date!
