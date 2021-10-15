@@ -1,2 +1,1 @@
 # PostIts
-Post It App
